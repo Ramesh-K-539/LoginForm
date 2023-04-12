@@ -1,0 +1,67 @@
+/* Write your CSS code here */
+
+* {
+  box-sizing: border-box;
+  font-family: 'roboto';
+}
+
+body {
+  margin: 0px;
+}
+
+.bg-container {
+  height: 100vh;
+  background-size: cover;
+  background-color: #ffffff;
+}
+
+.home-details-container {
+  height: 100%;
+  width: 90%;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 110px;
+  padding-right: 110px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.details-container {
+  width: 48%;
+  display: flex;
+  flex-direction: column;
+}
+
+.heading {
+  color: #1e293b;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.description {
+  color: #64748b;
+  font-size: 21px;
+  font-weight: 400;
+  margin-top: 0px;
+}
+
+.custom-button {
+  height: 46px;
+  width: 150px;
+  border: none;
+  border-radius: 6px;
+  background-color: #0967d2;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 20px;
+  cursor: pointer;
+  outline: none;
+}
+
+.thumbnail-img {
+  width: 44%;
+  height: 80%;
+  margin: 0px;
+}

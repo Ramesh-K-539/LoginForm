@@ -1,0 +1,56 @@
+/* Write your CSS code here */
+
+.nav-bar {
+  width: 100%;
+  padding-top: 35px;
+  padding-bottom: 25px;
+  padding-left: 110px;
+  padding-right: 110px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-img {
+  height: 50px;
+  width: 190px;
+}
+
+.un-ordered-list {
+  padding: 0px;
+  padding-left: 0px;
+  margin: 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.btn {
+  border: none;
+  cursor: pointer;
+  outline: none;
+  background-color: transparent;
+  color: #64748b;
+  font-size: 19px;
+  font-weight: 500;
+}
+
+.list-item {
+  list-style-type: none;
+  margin-left: 24px;
+  cursor: pointer;
+  outline: none;
+}
+
+.custom-btn {
+  color: #ffffff;
+  height: 36px;
+  width: 80px;
+  border-radius: 5px;
+  border-width: 0px;
+  background-color: #0b69ff;
+  margin: 0px;
+  cursor: pointer;
+  outline: none;
+}
